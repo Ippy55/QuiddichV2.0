@@ -1,0 +1,36 @@
+﻿<Page x:Class="QuiddichV2._0.PlayGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	Title="Play Game">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="183*"/>
+            <ColumnDefinition Width="97*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="team2Button0" Content="Test" HorizontalAlignment="Left" Margin="0,78,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="2" Tag="Team2AbbrName" Click="team2Button0_Click"/>
+        <Button x:Name="team2Button1" Content="Test" HorizontalAlignment="Left" Margin="0,152,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="2" Tag="Team2Player1" Click="team2Button1_Click"/>
+        <Button x:Name="team2Button2" Content="Test" HorizontalAlignment="Left" Margin="0,213,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="2" Tag="Team2Player2" Click="team2Button2_Click"/>
+        <Button x:Name="team2Button3" Content="Test" HorizontalAlignment="Left" Margin="0,274,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="2" Tag="Team2Player3" Click="team2Button3_Click"/>
+        <Button x:Name="team2Button4" Content="Test" HorizontalAlignment="Left" Margin="0,337,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="2" Tag="Team2Player4" Click="team2Button4_Click"/>
+
+        <Button x:Name="team1Button0" Content="Test" HorizontalAlignment="Left" Margin="0,78,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="1" Tag="Team1AbbrName" Click="team1Button0_Click"/>
+        <Button x:Name="team1Button1" Content="Test" HorizontalAlignment="Left" Margin="0,152,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="1" Tag="Team1Player1" Click="team1Button1_Click"/>
+        <Button x:Name="team1Button2" Content="Test" HorizontalAlignment="Left" Margin="0,213,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="1" Tag="Team1Player2" Click="team1Button2_Click"/>
+        <Button x:Name="team1Button3" Content="Test" HorizontalAlignment="Left" Margin="0,274,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="1" Tag="Team1Player3" Click="team1Button3_Click"/>
+        <Button x:Name="team1Button4" Content="Test" HorizontalAlignment="Left" Margin="0,337,0,0" VerticalAlignment="Top" Width="75"  Height="42" Grid.Column="1" Tag="Team1Player4" Click="team1Button4_Click"/>
+
+        <Button x:Name="btnNewMatch" Content="New Match" Grid.Column="1" HorizontalAlignment="Left" Margin="0,399,0,0" VerticalAlignment="Top" Width="258" Height="31" Grid.ColumnSpan="2" Click="btnNewMatch_Click"/>
+        <Button x:Name="btnBack" Content="Go Back" Grid.Column="1" HorizontalAlignment="Left" Margin="0,435,0,0" VerticalAlignment="Top" Width="258" Height="31" Grid.ColumnSpan="2" Click="btnBack_Click"/>
+        <Label Content="Score l0 Points" Grid.Column="1" HorizontalAlignment="Left" Margin="90,91,0,0" VerticalAlignment="Top"/>
+        <Label Content="Score 150 Points" Grid.Column="1" HorizontalAlignment="Left" Margin="80,350,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Page>

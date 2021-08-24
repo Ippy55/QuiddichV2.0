@@ -1,0 +1,19 @@
+﻿<Page x:Class="QuiddichV2._0.PlayerRoster"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	Title="PlayerRoster">
+
+    <Grid>
+        <ListBox x:Name="lstPlayers" HorizontalAlignment="Left" Height="247" Margin="10,10,0,0" VerticalAlignment="Top" Width="263"/>
+
+        <Button x:Name="btnAddPlayer" Content="Add Player" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" Width="263" Height="40" Click="btnAddPlayer_Click"/>
+        <Button x:Name="btnModifyPlayer" Content="Modify Player" HorizontalAlignment="Left" Margin="10,345,0,0" VerticalAlignment="Top" Width="127" Height="40" Click="btnModifyPlayer_Click"/>
+        <Button  x:Name="btnDeletePlayer" Content="Delete Player" HorizontalAlignment="Left" Margin="142,345,0,0" VerticalAlignment="Top" Width="132" Height="40" Click="btnDeletePlayer_Click"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="263" Height="40" Margin="11,408,0,0" Click="btnBack_Click"/>
+
+    </Grid>
+</Page>

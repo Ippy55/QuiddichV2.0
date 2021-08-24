@@ -1,0 +1,26 @@
+﻿<Page x:Class="QuiddichV2._0.NewUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	Title="New User">
+
+    <Grid>
+        <Button x:Name="btnCreateUser" Content="Create User" HorizontalAlignment="Left" Margin="19,291,0,0" VerticalAlignment="Top" Width="241" Height="60" RenderTransformOrigin="0.509,0.549" Click="btnCreateUser_Click" FontSize="20"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="19,383,0,0" VerticalAlignment="Top" Width="241" Height="60" RenderTransformOrigin="0.509,0.549" IsCancel="True" Click="btnCancel_Click" FontSize="20"/>
+
+        <Label x:Name="lblUsername" Content="Username:" HorizontalAlignment="Left" Margin="19,72,0,0" VerticalAlignment="Top" />
+        <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="22,93,0,0" VerticalAlignment="Top" />
+        <Label x:Name="lblConfirmPassword" Content="Confirm Password:" HorizontalAlignment="Left" Margin="19,154,0,0" VerticalAlignment="Top" />
+        <Label x:Name="lblPasswordStrength" Content="" HorizontalAlignment="Left" Margin="140,127,0,0" VerticalAlignment="Top" />
+
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="23" Margin="140,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam" ToolTip="Enter your username " Tag="Username"/>
+
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="140,93,0,0" VerticalAlignment="Top" Width="120" Cursor="IBeam" ToolTip="Enter your password" PasswordChanged="PasswordBox_PasswordChanged" Tag="Password"/>
+        <PasswordBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Margin="140,150,0,0" VerticalAlignment="Top" Width="120" Cursor="IBeam" ToolTip="Enter your password" Tag="Password"/>
+
+
+    </Grid>
+</Page>

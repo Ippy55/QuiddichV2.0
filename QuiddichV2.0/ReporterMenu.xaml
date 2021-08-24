@@ -1,0 +1,16 @@
+﻿<Page x:Class="QuiddichV2._0.ReporterMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	Title="ReporterMenu">
+
+    <Grid>
+        <Button x:Name="btnReportGame" Content="Report Game" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Width="280" Height="107" FontSize="24" Click="btnReportGame_Click"/>
+        <Button x:Name="btnManage" Content="Manage Teams/Players" HorizontalAlignment="Left" Margin="10,46,0,0" VerticalAlignment="Top" Width="280" Height="107" FontSize="24" Click="btnManage_Click"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" Margin="30,368,0,0" Width="241" Height="90" FontSize="24" VerticalAlignment="Top" Click="btnBack_Click"/>
+
+    </Grid>
+</Page>

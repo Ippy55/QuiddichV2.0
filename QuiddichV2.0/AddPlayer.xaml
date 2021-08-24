@@ -1,0 +1,31 @@
+﻿<Page x:Class="QuiddichV2._0.AddPlayer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	Title="AddPlayer"
+      Loaded="formLoaded">
+
+    <Grid>
+
+        <Label x:Name="lblTeamID" Content="Team ID:" HorizontalAlignment="Left" Margin="122,40,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblFirstName" Content="First Name:" HorizontalAlignment="Left" Margin="122,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblLastName" Content="Last Name:" HorizontalAlignment="Left" Margin="122,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.625"/>
+        <Label x:Name="lblUniformNumber" Content="Uniform Number:" HorizontalAlignment="Left" Margin="107,216,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.625"/>
+        <Label x:Name="lblPosition" Content="Position:" HorizontalAlignment="Left" Margin="136,274,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.071,0.625"/>
+
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="23" Margin="96,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+        <TextBox x:Name="txtTeamID" HorizontalAlignment="Left" Height="23" Margin="96,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="23" Margin="96,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+        <TextBox x:Name="txtUniformNumber" HorizontalAlignment="Left" Height="23" Margin="96,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+        <TextBox x:Name="txtPosition" HorizontalAlignment="Left" Height="23" Margin="96,295,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="IBeam"/>
+
+        <Button x:Name="btnSave" Content="Save Player" HorizontalAlignment="Left" Margin="10,354,0,0" VerticalAlignment="Top" Width="265" Height="45" Click="btnSave_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,416,0,0" VerticalAlignment="Top" Width="265" Height="45" Click="btnCancel_Click"/>
+       
+       
+
+    </Grid>
+</Page>

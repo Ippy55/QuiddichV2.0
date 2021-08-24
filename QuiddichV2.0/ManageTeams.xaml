@@ -1,0 +1,25 @@
+﻿<Page x:Class="QuiddichV2._0.ManageTeams"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="300"
+	  Title="Manage Teams">
+
+    <Grid >
+
+        <ListBox x:Name="lstTeams" HorizontalAlignment="Left" Height="202" Margin="10,10,0,0" VerticalAlignment="Top" Width="270" SelectionChanged="lstTeams_SelectionChanged"/>
+
+        <Label x:Name="lblNumberPlayers" Content="" HorizontalAlignment="Center" Margin="10,217,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="btnDeleteTeam" Content="Delete Team" HorizontalAlignment="Left" Margin="10,327,0,0" VerticalAlignment="Top" Width="270" Height="30" FontSize="20" Click="btnDeleteTeam_Click"/>
+        <Button x:Name="btnModifyTeam" Content="Modify Team" HorizontalAlignment="Left" Margin="10,292,0,0" VerticalAlignment="Top" Width="270" Height="30" FontSize="20" Click="btnModifyTeam_Click"/>
+        <Button x:Name="btnAddTeam" Content="Add Team" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Width="270" Height="30" FontSize="20" Click="btnAddTeam_Click"/>
+        <Button x:Name="btnViewRoster" Content="View Player Roster" HorizontalAlignment="Left" Margin="10,362,0,0" VerticalAlignment="Top" Width="270" Height="30" FontSize="20" Click="btnViewRoster_Click"/>
+        <Button x:Name="btnBack" Content="Go Back" HorizontalAlignment="Left" Margin="10,433,0,0" VerticalAlignment="Top" Width="270" Height="30" FontSize="20" Click="btnBack_Click"/>
+        
+
+
+    </Grid>
+</Page>
